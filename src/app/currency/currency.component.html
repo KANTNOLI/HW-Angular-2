@@ -1,1 +1,5 @@
-<p>currency works!</p>
+<section class="currency">
+    <input type="number" [(ngModel)]="inputBYN" (keyup)="setValueCash(0)">
+    <input type="number" [(ngModel)]="inputUSA" (keyup)="setValueCash(1)">
+    <p>currencyValue: {{currencyValue}}</p>
+</section>
