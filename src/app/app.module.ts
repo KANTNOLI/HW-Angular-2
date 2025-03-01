@@ -5,13 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CurrencyComponent } from './currency/currency.component';
 import { FormsModule } from '@angular/forms';
-import { CurrencyPipePipe } from './pipes/currency-pipe.pipe';
+import { CalculatorComponent } from './calculator/calculator.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CurrencyComponent,
-    CurrencyPipePipe
+    CalculatorComponent
   ],
   imports: [
     BrowserModule,
