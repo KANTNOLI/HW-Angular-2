@@ -1,0 +1,12 @@
+<section class="gpt">
+    <img *ngIf="msgs.length < 1" src="https://www.digiseller.ru/preview/1091538/p1_3688492_d7809a1c.jpg" alt="">
+
+    <ol *ngIf="msgs.length > 0">
+        <li *ngFor="let msg of msgs">
+            {{msg}}
+        </li>
+    </ol>
+
+
+    <button (click)="setState()">Send</button>
+</section>

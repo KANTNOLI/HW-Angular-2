@@ -1,0 +1,22 @@
+.gpt {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(148, 148, 148);
+}
+
+.gpt img{ 
+    width: 50%;
+}
+
+.gpt button{ 
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

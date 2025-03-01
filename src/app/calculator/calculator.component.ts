@@ -36,7 +36,6 @@ export class CalculatorComponent {
   }
 
   saveResult() {
-    console.log(1);
     this.history.push(this.visual)
     console.log(this.history);
   }

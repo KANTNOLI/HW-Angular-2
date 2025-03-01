@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { CurrencyComponent } from './currency/currency.component';
 import { FormsModule } from '@angular/forms';
 import { CalculatorComponent } from './calculator/calculator.component';
+import { GptComponent } from './gpt/gpt.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CurrencyComponent,
-    CalculatorComponent
+    CalculatorComponent,
+    GptComponent
   ],
   imports: [
     BrowserModule,
