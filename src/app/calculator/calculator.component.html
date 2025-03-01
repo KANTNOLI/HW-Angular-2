@@ -1,1 +1,18 @@
-<p>calculator works!</p>
+<section class="calculator">
+    <p>Visual: {{visual}}</p>
+    <input (keyup)=" setVisualExample()" type="number" [(ngModel)]="valueA">
+    <input (keyup)=" setVisualExample()" type="number" [(ngModel)]="valueB">
+    <input (keyup)=" setVisualExample()" type="text" [(ngModel)]="valueC">
+    <button (click)="saveResult()">save</button>
+
+
+    <ol class="history">
+        <p>History</p>
+        <li *ngFor="let historyElement of history">
+            {{historyElement}}
+        </li>
+    </ol>
+
+
+
+</section>
